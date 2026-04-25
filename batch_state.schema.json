@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TAMAVAQ batch state",
+  "type": "object",
+  "required": ["batch_id", "timestamp_utc", "input_sha256", "config_sha256", "candidate_index_map_sha256", "thresholds", "ctqw", "selected_ids"],
+  "properties": {
+    "batch_id": {"type": "string"},
+    "timestamp_utc": {"type": "string"},
+    "input_sha256": {"type": "string"},
+    "config_sha256": {"type": "string"},
+    "candidate_index_map_sha256": {"type": "string"},
+    "thresholds": {"type": "object"},
+    "ctqw": {"type": "object"},
+    "predicate_counts": {"type": "object"},
+    "selected_ids": {"type": "array", "items": {"type": "string"}},
+    "construct": {"type": "object"}
+  }
+}

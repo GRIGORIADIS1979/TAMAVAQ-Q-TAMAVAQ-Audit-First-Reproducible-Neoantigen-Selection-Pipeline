@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TAMAVAQ candidate row",
+  "type": "object",
+  "required": [
+    "peptide", "allele", "gene", "source_variant",
+    "calibrated_immunogenicity", "delta_g_kcal_mol",
+    "manufacturable", "provenance_ok", "expression_tpm",
+    "vaf", "clonality", "anchor_type"
+  ],
+  "properties": {
+    "peptide": {"type": "string", "pattern": "^[ACDEFGHIKLMNPQRSTVWY]+$"},
+    "allele": {"type": "string"},
+    "gene": {"type": "string"},
+    "source_variant": {"type": "string"},
+    "calibrated_immunogenicity": {"type": "number", "minimum": 0, "maximum": 1},
+    "delta_g_kcal_mol": {"type": "number"},
+    "manufacturable": {"type": "boolean"},
+    "provenance_ok": {"type": "boolean"},
+    "expression_tpm": {"type": "number", "minimum": 0},
+    "vaf": {"type": "number", "minimum": 0, "maximum": 1},
+    "clonality": {"type": "string"},
+    "anchor_type": {"type": "string"},
+    "tumor_cell_fraction": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

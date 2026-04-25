@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TAMAVAQ teleport log event",
+  "type": "object",
+  "required": ["event_id", "batch_id", "context", "bell_outcomes", "pauli_frame", "predicate_snapshot", "checksum"],
+  "properties": {
+    "event_id": {"type": "string"},
+    "batch_id": {"type": "string"},
+    "context": {"type": "string"},
+    "bell_outcomes": {"type": "array", "items": {"type": "integer", "enum": [0,1]}},
+    "pauli_frame": {"type": "string"},
+    "predicate_snapshot": {"type": "object"},
+    "checksum": {"type": "string"}
+  }
+}

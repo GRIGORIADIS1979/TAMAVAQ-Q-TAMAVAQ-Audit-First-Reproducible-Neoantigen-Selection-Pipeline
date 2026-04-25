@@ -1,0 +1,9 @@
+peptide,allele,gene,source_variant,calibrated_immunogenicity,delta_g_kcal_mol,manufacturable,provenance_ok,expression_tpm,vaf,clonality,anchor_type,tumor_cell_fraction
+ILCEKPTV,HLA-A*02:01,GENE1,var1,0.74,-8.1,true,true,28.4,0.42,clonal,short,0.61
+EESYDFF,HLA-B*07:02,GENE2,var2,0.66,-6.9,true,true,14.2,0.31,subclonal,short,0.42
+IDESPIF,HLA-A*02:01,GENE3,var3,0.58,-6.1,true,true,7.5,0.22,subclonal,short,0.37
+LPGGSYM,HLA-C*07:01,GENE4,var4,0.49,-7.2,true,true,18.0,0.27,clonal,short,0.50
+SFDNNI,HLA-B*07:02,GENE5,var5,0.61,-5.4,true,true,11.1,0.18,subclonal,short,0.31
+LRSQVR,HLA-A*03:01,GENE6,var6,0.63,-6.4,true,true,22.0,0.35,clonal,short,0.55
+TLWYDRPMYVSTTIFLV,HLA-DRB1*04:01,GENE7,var7,0.71,-7.4,true,true,19.0,0.33,clonal,long17,0.58
+AAAAAAA,HLA-A*02:01,GENE8,var8,0.81,-3.0,false,true,5.0,0.12,subclonal,short,0.20

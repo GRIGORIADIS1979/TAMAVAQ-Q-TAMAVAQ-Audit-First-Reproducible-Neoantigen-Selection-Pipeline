@@ -1,0 +1,9 @@
+[project]
+name = "tamavaq-algorithm"
+version = "0.1.0"
+description = "Reproducible corrected TAMAVAQ/Q-TAMAVAQ algorithms"
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "scipy", "pyyaml", "jsonschema"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

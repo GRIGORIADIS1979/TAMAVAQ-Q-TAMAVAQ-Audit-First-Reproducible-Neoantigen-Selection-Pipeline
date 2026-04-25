@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "TAMAVAQ / Q-TAMAVAQ reproducible algorithms"
+message: "Cite the associated manuscript and the upstream tools/papers used by your run."
+authors:
+  - family-names: "Grigoriadis"
+    given-names: "Ioannis"
+version: "0.1.0"
+date-released: "2026-04-25"
