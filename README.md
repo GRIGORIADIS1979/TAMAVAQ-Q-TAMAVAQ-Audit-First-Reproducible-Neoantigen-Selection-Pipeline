@@ -53,14 +53,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install numpy pandas scipy pyyaml jsonschema pytest
 ```
-
-Optional external tools for production feature annotation:
-
-- NeoFox for feature annotation.
-- NetMHCpan / MHCflurry / MixMHCpred / MixMHC2pred as available.
-- neoDesign for protein construct optimization and lambda evaluation.
-- NeoAgDT or an ILP solver for tumor-heterogeneity-aware exact optimization.
-
 ## Run the toy example
 
 ```bash
