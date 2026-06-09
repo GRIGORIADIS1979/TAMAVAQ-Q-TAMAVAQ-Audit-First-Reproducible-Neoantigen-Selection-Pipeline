@@ -7,19 +7,6 @@ A GitHub-style, reproducible, corrected algorithm package for the two TAMAVAQ ma
 
 This repository converts the manuscript concept into a **deterministic, auditable computational workflow**. It treats the quantum-walk/Grover language as a **selector and scoring abstraction** that can be simulated classically, logged, and tested. It does **not** claim clinical efficacy.
 
-## Alignment to cited tools/papers
-
-This implementation is designed to interoperate conceptually with:
-
-1. **NeoFox** (`Bioinformatics 37(22):4246–4247; btab344`)  
-   Use comprehensive neoantigen feature annotation rather than a single ranking score.
-
-2. **NeoAgDT** (`Bioinformatics 40(5):btae205`)  
-   Use constrained vaccine composition optimization and heterogeneity-aware selection rather than top-rank truncation.
-
-3. **neoDesign** (`Bioinformatics 40(10):btae585`, GitHub: `HuangLab-Fudan/neoDesign`)  
-   After peptide selection, optimize polyvalent protein construct order, minimize unexpected junctional neoantigens/linkers, and report lambda (`λ`) guidance for downstream mRNA design.
-
 ## Corrected scientific scope
 
 TAMAVAQ is implemented here as a reproducible computational triage instrument:
