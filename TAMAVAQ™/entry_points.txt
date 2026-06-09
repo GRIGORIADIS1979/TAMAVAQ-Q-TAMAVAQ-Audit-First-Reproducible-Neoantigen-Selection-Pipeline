@@ -1,0 +1,2 @@
+[console_scripts]
+tamavaq-replay = tamavaq.cli:main

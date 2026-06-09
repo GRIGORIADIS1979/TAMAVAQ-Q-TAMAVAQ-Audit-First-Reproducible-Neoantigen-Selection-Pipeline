@@ -1,0 +1,65 @@
+{
+  "selected_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "C04"
+  ],
+  "reserve_ids": [
+    "C05",
+    "C06",
+    "C07"
+  ],
+  "fail_ids": [
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14"
+  ],
+  "delta_k": 0.039662,
+  "hr_at_k": 1.0,
+  "ef_at_k": 2.0,
+  "manifest_hash": "4987798b087330a3f7f5a2c843ec3c8588597e72f06f25c637d3d070f5aa12d1",
+  "claim_boundary": "Computational replay and peptide prioritization only. Not clinical, diagnostic, or treatment advice.",
+  "config": {
+    "panel_size": 4,
+    "thresholds": {
+      "bio": 0.7,
+      "delta_g_kcal_mol_max": -7.5,
+      "contact_persistence": 0.7,
+      "rmsd_star_max": 0.4,
+      "rmsf_star_max": 0.42,
+      "geom": 0.75,
+      "cmc": 1.0,
+      "prov": 1.0,
+      "valid": 1.0
+    },
+    "weights": {
+      "s_q": {
+        "bio": 0.3,
+        "s_phys": 0.25,
+        "geom": 0.2,
+        "s_ctqw": 0.15,
+        "pass": 0.1
+      },
+      "s_ctqw": {
+        "geom": 0.45,
+        "s_phys": 0.3,
+        "bio": 0.25
+      },
+      "boundary": {
+        "bio": 1.0,
+        "phys": 1.0,
+        "geom": 1.0,
+        "cmc": 1.0,
+        "prov": 1.0,
+        "valid": 1.0
+      }
+    },
+    "policy_version": "tamavaq-demo-v1",
+    "claim_boundary": "Computational replay and peptide prioritization only. Not clinical, diagnostic, or treatment advice."
+  }
+}

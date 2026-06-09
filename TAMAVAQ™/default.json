@@ -1,0 +1,21 @@
+{
+  "panel_size": 4,
+  "thresholds": {
+    "bio": 0.70,
+    "delta_g_kcal_mol_max": -7.5,
+    "contact_persistence": 0.70,
+    "rmsd_star_max": 0.40,
+    "rmsf_star_max": 0.42,
+    "geom": 0.75,
+    "cmc": 1,
+    "prov": 1,
+    "valid": 1
+  },
+  "weights": {
+    "s_q": {"bio": 0.30, "s_phys": 0.25, "geom": 0.20, "s_ctqw": 0.15, "pass": 0.10},
+    "s_ctqw": {"geom": 0.45, "s_phys": 0.30, "bio": 0.25},
+    "boundary": {"bio": 1.0, "phys": 1.0, "geom": 1.0, "cmc": 1.0, "prov": 1.0, "valid": 1.0}
+  },
+  "policy_version": "tamavaq-demo-v1",
+  "claim_boundary": "Computational replay and peptide prioritization only. Not clinical, diagnostic, or treatment advice."
+}
